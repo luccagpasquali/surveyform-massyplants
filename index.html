@@ -1,0 +1,38 @@
+<DOCTYPE="html">
+<html lang="en">
+<head>
+  <title>Survey Form - Massy Plants</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1 id="title">Survey Form - Massy Plants</h1>
+  <p id="description">Some quick questions for you to show us how to better serve you!<p>
+  <form id="survey-form">
+    <label id="name-label">Name:<input type="text" id="name" placeholder="Enter your full name" required></label>
+    <label id="email-label">Email:<input type="email" id="email" placeholder="Enter your email" required></label>
+    <label id="number-label">Age:<input type="number" id="number" min="10" max="120" placeholder="Enter your age (optional)"></label>
+    <label for="reach">How did this survey reach you?
+      <select id="dropdown" name="reach">
+        <option value="">(select one)</option>
+        <option value="1">Massy sent it directly to you</option>
+       <option value="2">Instagram</option>
+       <option value="3">Facebook</option>
+       <option value="4">Other</option>
+    </select>
+  </label>
+  <label for="plant">
+    <legend>Do you already own any plant?</legend>
+    <label id="yes-own"><input id="personal-account" type="radio" name="plant-owner" class="inline" value="yes" checked /> Yes</label>
+    <label id="no-own"><input id="business-account" type="radio" name="plant-owner" class="inline" value="no" /> No</label>
+   </label>
+   <label id="checkbox-label">What do you expect in this plant based webspace?
+     <label id="checkbox-option1"><input type="checkbox" name="expectation" value="info" class="inline">Information about plants and its cares</label>
+     <label id="checkbox-option"><input type="checkbox" name="expectation" value="shop" class="inline" >Buy majestic plants</label>
+     <label id="checkbox-option"><input type="checkbox" name="expectation"  value="service" class="inline">Hire plant care services</label>
+     <label id="checkbox-option"><input type="checkbox" name="expectation" value="other" class="inline">Other</label>
+   </label>
+   <label id="extra">If you checked "Other" in the previous question, please, describe here your sugestion: <textarea id="extra" name="extra" rows="3" cols="30" placeholder="I would like to see some..."></textarea>
+   </label>
+   <input type="submit" id="submit" />    
+  <form>
+</body>  

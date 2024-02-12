@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image:url('https://i.ibb.co/wzR0MSq/pexels-olga-lioncat-7245513.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color:rgba(0, 15, 8, 0.9);
+    padding:2.5rem;
+    font-family:'arial';
+  }
+  
+  label {
+    display: block;
+    margin: 0 0 1.5rem 0;
+    font-weight:bold;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  p {
+    font-size:17px;
+    font-style: italic;
+    font-weight:bold;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 5px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea, select {
+    background-color: rgba(0, 60, 8, 0.5);
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    border-radius:5px;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+  }
+  
+  #checkbox-option {
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  
+  #checkbox-option1 {
+    margin-top:4px;
+    margin-bottom:0px;
+  }
+  
+  #yes-own {
+    margin-bottom:0;
+    margin-top:5px;
+  }
+  
+  #checkbox-option1,#checkbox-option,#yes-own,#no-own {
+    font-weight:normal;
+    font-size:15.5px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    min-width: 300px;
+  }
